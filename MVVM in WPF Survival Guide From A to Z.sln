@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{18DBD95D-D1F7-4079-A75B-F0B5E609E6A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{B692EEF4-D544-498E-94EC-6F0BC11CB125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.UnitTests", "DependencyInjection.UnitTests\DependencyInjection.UnitTests.csproj", "{3E4F33BC-BF20-413C-81DD-C0708E25796E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleIoC", "SimpleIoC\SimpleIoC.csproj", "{FCF38416-1FE2-4E9E-AABB-A1EFBDE571EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appendix C1 - Dependency Inversion Principle", "Appendix C1 - Dependency Inversion Principle", "{A35F0086-B8D1-49C4-AAB5-334353B0CDE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appendix C2 - Introduction to DI (IoC) Containers", "Appendix C2 - Introduction to DI (IoC) Containers", "{A618577B-4C30-47D0-8F56-4685A0BFFCC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Introduction to MVVM", "1. Introduction to MVVM", "{6F686F4A-EDB8-4B17-B42F-E064EFFB33BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,27 @@ Global
 		{18DBD95D-D1F7-4079-A75B-F0B5E609E6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18DBD95D-D1F7-4079-A75B-F0B5E609E6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18DBD95D-D1F7-4079-A75B-F0B5E609E6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B692EEF4-D544-498E-94EC-6F0BC11CB125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B692EEF4-D544-498E-94EC-6F0BC11CB125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B692EEF4-D544-498E-94EC-6F0BC11CB125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B692EEF4-D544-498E-94EC-6F0BC11CB125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4F33BC-BF20-413C-81DD-C0708E25796E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4F33BC-BF20-413C-81DD-C0708E25796E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4F33BC-BF20-413C-81DD-C0708E25796E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4F33BC-BF20-413C-81DD-C0708E25796E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF38416-1FE2-4E9E-AABB-A1EFBDE571EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF38416-1FE2-4E9E-AABB-A1EFBDE571EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF38416-1FE2-4E9E-AABB-A1EFBDE571EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF38416-1FE2-4E9E-AABB-A1EFBDE571EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18DBD95D-D1F7-4079-A75B-F0B5E609E6A7} = {6F686F4A-EDB8-4B17-B42F-E064EFFB33BD}
+		{B692EEF4-D544-498E-94EC-6F0BC11CB125} = {A35F0086-B8D1-49C4-AAB5-334353B0CDE0}
+		{3E4F33BC-BF20-413C-81DD-C0708E25796E} = {A35F0086-B8D1-49C4-AAB5-334353B0CDE0}
+		{FCF38416-1FE2-4E9E-AABB-A1EFBDE571EC} = {A618577B-4C30-47D0-8F56-4685A0BFFCC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E01C14D7-349F-4403-96E3-3814BAFE5A31}
